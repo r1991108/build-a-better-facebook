@@ -53,3 +53,21 @@ function signIn(username, password) {
 
 //  run signIn(userNamePrompt, passwordPromp)
  signIn(userNamePrompt,passwordPrompt)
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// // another way of coding (return)
+// var username = prompt("what's your name");
+// var password = prompt("what's your password");
+
+// function isIdValid(){
+
+//     for (var i=0; i<database.length; i++){
+//         if (database[i].username === username && database[i].password === password){
+//             return console.log(newsFeed);
+//         }else {
+//             return alert("username or password is wrong");
+//         }
+//     }
+// }
+
+// isIdValid();
